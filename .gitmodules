@@ -1,0 +1,8 @@
+[submodule "themes/prologue"]
+	path = themes/prologue
+	url = https://github.com/kzk-maeda/prologue.git
+	branch = master
+[submodule "kzk-maeda.work/themes/prologue"]
+	path = kzk-maeda.work/themes/prologue
+	url = https://github.com/kzk-maeda/prologue.git
+	branch = master
