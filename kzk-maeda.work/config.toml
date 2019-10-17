@@ -1,76 +1,50 @@
-languageCode = "en-us"
-title = "Prologue"
-baseurl = "http://kzk-maeda.work/"
-theme = "prologue"
+baseURL = "https://kzk-maeda.work/"
+languageCode = "ja-jp"
+title = "kzk-maeda.work"
+theme = "resume"
 
 [params]
-  name = "Jane Doe"
-  description = "Hyperspace Engineer"
-  copyright = "Untitled."
+    firstName = "Kazuki"
+    lastName = "Maeda"
+    address = "Rollinsford, NH"
+    phone = "080-5704-9061"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "img/TechChat.png"
+    email = "kzk.maeda0711@gmail.com"
+    description = "Software Platform Engineer with experience leveraging agile, DevOps, and CI/CD to manage large scale distributed platforms both on prem and in public cloud."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = true
+    showOpenSource = false
+    showPublications = true
+    showExperience = true
+    showEducation = true
 
-[[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
+    showQr = true
 
-[[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "#"
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/edwardwebb/"
 
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "#"
 
-[[params.social]]
-  medium = "dribbble"
-  icon = "dribbble"
-  link = "#"
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/eddiewebb/"
 
-[[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "#"
+[[params.handles]]
+    name = "Bitbucket"
+    link = "https://bitbucket.org/eddiewebb/"
 
-# Portfolio column one
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/story/82880"
+    icon = "stack-overflow"
 
-[[params.portfolio1]]
-  title = "Ipsum Feugiat"
-  alt = ""
-  source = "img/pic02.jpg"
-  url = "#"
+[[params.handles]]
+    name = "Keybase"
+    link = "https://keybase.io/edwardawebb"
+    icon = "keybase"
 
-[[params.portfolio1]]
-  title = "Rhoncus Semper"
-  alt = ""
-  source = "img/pic03.jpg"
-  url = "#"
-
-# Portfolio column two
-
-[[params.portfolio2]]
-  title = "Magna Nullam"
-  alt = ""
-  source = "img/pic04.jpg"
-  url = "#"
-
-[[params.portfolio2]]
-  title = "Natoque Vitae"
-  alt = ""
-  source = "img/pic05.jpg"
-  url = "#"
-
-# Portfolio column 3
-
-[[params.portfolio3]]
-  title = "Dolor Penatibus"
-  alt = ""
-  source = "img/pic06.jpg"
-  url = "#"
-
-[[params.portfolio3]]
-  title = "Orci Convallis"
-  alt = ""
-  source = "img/pic07.jpg"
-  url = "#"
+[params.google.analytics]
+    trackerID = "XX-123446-01"

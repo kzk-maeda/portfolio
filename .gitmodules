@@ -6,3 +6,7 @@
 	path = kzk-maeda.work/themes/prologue
 	url = https://github.com/kzk-maeda/prologue.git
 	branch = master
+[submodule "kzk-maeda.work/themes/resume"]
+	path = kzk-maeda.work/themes/resume
+	url = https://github.com/kzk-maeda/hugo-resume.git
+	branch = master
